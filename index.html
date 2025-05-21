@@ -14,14 +14,12 @@
     .hero { background: url('https://via.placeholder.com/1200x400?text=Assistenza+Domiciliare') center/cover no-repeat; color: white; text-align: center; padding: 4em 1em; }
     .hero h1 { font-size: 2.5em; margin-bottom: 0.5em; }
     .hero p { font-size: 1.2em; margin-bottom: 1em; }
-    .btn-primary { background: #007acc; color: white; padding: 1em 2em; border: none; text-decoration: none; font-weight: bold; border-radius: 5px; cursor: pointer; }
+    .btn-primary { background: #007acc; color: white; padding: 1em 2em; border: none; text-decoration: none; font-weight: bold; border-radius: 5px; cursor: pointer; display: inline-block; }
     section { padding: 2em 1em; max-width: 900px; margin: auto; background: white; margin-bottom: 1em; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.05); }
     h2 { color: #004080; }
     ul { list-style: none; padding: 0; }
     ul li { padding: 0.5em 0; }
     blockquote { font-style: italic; background: #eef; padding: 1em; border-left: 5px solid #004080; margin: 1em 0; }
-    form { display: flex; flex-direction: column; gap: 1em; }
-    input, textarea { padding: 0.8em; border: 1px solid #ccc; border-radius: 4px; font-size: 1em; }
     footer { background: #004080; color: white; text-align: center; padding: 2em 1em; margin-top: 2em; }
     footer img { height: 40px; margin-bottom: 1em; }
     footer a { color: white; text-decoration: underline; }
@@ -77,13 +75,8 @@
 
   <section id="contatto">
     <h2>Richiedi informazioni</h2>
-    <form>
-      <input type="text" placeholder="Nome e Cognome" required>
-      <input type="tel" placeholder="Telefono" required>
-      <input type="email" placeholder="Email (facoltativa)">
-      <textarea rows="4" placeholder="Messaggio"></textarea>
-      <button class="btn-primary" type="submit">Invia Richiesta</button>
-    </form>
+    <p>Per ricevere informazioni o fissare una consulenza gratuita, clicca qui sotto:</p>
+    <a href="mailto:2gcure@hin.ch?subject=Richiesta%20di%20informazioni" class="btn-primary">Scrivici per informazioni</a>
   </section>
 
   <footer>
